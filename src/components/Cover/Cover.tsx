@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Content, Social } from './styles';
 
@@ -28,6 +28,14 @@ export function Cover() {
             target={'_blank'}
             rel="noreferrer" >
             <span>github <FontAwesomeIcon icon={faGithub} /></span>
+          </a>
+          <a
+            className="social-link"
+            href='https://instagram.com/brenoserafini_'
+            target={'_blank'}
+            rel="noreferrer"
+            style={{marginRight: 20}} >
+            <span>instagram <FontAwesomeIcon icon={faInstagram} /></span>
           </a>
         </Social>
       </Content>
