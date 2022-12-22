@@ -26,7 +26,8 @@ export function Cover() {
             className="social-link"
             href='https://github.com/brenoserafini'
             target={'_blank'}
-            rel="noreferrer" >
+            rel="noreferrer"
+            style={{marginRight: 20}} >
             <span>github <FontAwesomeIcon icon={faGithub} /></span>
           </a>
           <a
