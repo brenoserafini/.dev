@@ -45,4 +45,10 @@ export const Content = styled.div`
 
 export const Social = styled.div`
   margin-top: 2.6rem;
+
+  @media (max-width: 578px) {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
 `;
