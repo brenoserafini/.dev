@@ -143,6 +143,11 @@ export const GlobalStyles = createGlobalStyle`
     border: none;
     background: none;
     cursor: pointer;
+    @media (max-width: 578px) {
+      margin-left: 0;
+      margin-bottom: .75rem;
+      width: fit-content;
+    }
   }
   .social-link:before {
     content: "";
