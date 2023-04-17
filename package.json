@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && tar -cvf ./deploy.tar --exclude='*.map' ./captain-definition ./dist/*",
     "preview": "vite preview"
   },
   "dependencies": {
