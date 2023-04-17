@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#ignora o arquivo deploy.tar que é gerado para deploy no caprover
+deploy.tar
