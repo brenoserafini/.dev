@@ -8,7 +8,7 @@ export function Cover() {
       <Content>
         <p className='hello'>olá_ 🙋🏻‍♂️</p>
         <h1>
-          me chamo Breno, sou designer<br/>
+          Me chamo Breno, sou designer<br/>
           & desenvolvedor frontend_
         </h1>
         <p className='about'>sou formado em design pela Ufes e atualmente trabalho no desenvolvimento de um SaaS na Persora_</p>
