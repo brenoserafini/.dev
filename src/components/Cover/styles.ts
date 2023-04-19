@@ -8,6 +8,7 @@ export const Container = styled.div`
 
   @media (max-height: 540px) {
     height: auto;
+    padding-bottom: 50px;
   }
 `;
 
@@ -22,6 +23,10 @@ export const Content = styled.div`
     color: #62F1F3;
     font-size: 1.4rem;
     margin-bottom: 1.2rem;
+    img {
+      width: 2.4rem;
+      margin-bottom: -.5rem;
+    }
   }
 
   h1 {

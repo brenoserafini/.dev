@@ -6,7 +6,8 @@ export function Cover() {
   return (
     <Container>
       <Content>
-        <p className='hello'>olá_ 🙋🏻‍♂️</p>
+        {/* <p className='hello'>olá_ 🙋🏻‍♂️</p> */}
+        <p className='hello'>olá_ <img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /></p>
         <h1>
           me chamo Breno, sou designer<br/>
           & desenvolvedor frontend_
@@ -20,7 +21,7 @@ export function Cover() {
             target={'_blank'}
             rel="noreferrer"
             style={{marginRight: 20}} >
-            <span>linkedin <FontAwesomeIcon icon={faLinkedin} /></span>
+            <span>linkedin_ <FontAwesomeIcon icon={faLinkedin} /></span>
           </a>
           <a
             className="social-link"
@@ -28,7 +29,7 @@ export function Cover() {
             target={'_blank'}
             rel="noreferrer"
             style={{marginRight: 20}} >
-            <span>github <FontAwesomeIcon icon={faGithub} /></span>
+            <span>github_ <FontAwesomeIcon icon={faGithub} /></span>
           </a>
           <a
             className="social-link"
@@ -36,7 +37,7 @@ export function Cover() {
             target={'_blank'}
             rel="noreferrer"
             style={{marginRight: 20}} >
-            <span>instagram <FontAwesomeIcon icon={faInstagram} /></span>
+            <span>instagram_ <FontAwesomeIcon icon={faInstagram} /></span>
           </a>
         </Social>
       </Content>
