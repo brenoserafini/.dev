@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
 
-  @media (max-height: 540px) {
+  @media (max-width: 576px) {
     height: auto;
     padding-bottom: 50px;
   }
