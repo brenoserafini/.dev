@@ -35,7 +35,7 @@ export const Content = styled.div`
   }
 
   p.about {
-    max-width: 42%;
+    max-width: 56%;
     font-size: 1.16rem;
     margin-bottom: .4rem;
     opacity: .6;

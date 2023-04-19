@@ -12,8 +12,9 @@ export function Cover() {
           me chamo Breno, sou designer<br/>
           & desenvolvedor frontend_
         </h1>
-        <p className='about'>sou formado em design pela Ufes e atualmente trabalho no desenvolvimento de um SaaS na Persora_</p>
+        <p className='about'>sou formado em design pela Ufes e atualmente dedico a maior parte do meu tempo no desenvolvimento de um SaaS na Persora_</p>
         <p className='about'>desde 2010 construo coisas para a web e mais recentemente venho buscando experiências para me tornar um desenvolvedor full-stack_</p>
+        <p className='about'>sempre que possível, busco contruir pequenos projetos que me permitam explorar novas tecnologias, linguagens de programação e frameworks_</p>
         <Social>
           <a
             className="social-link"
