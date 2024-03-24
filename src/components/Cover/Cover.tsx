@@ -19,7 +19,8 @@ export function Cover() {
   return (
     <Container>
       <Content>
-        <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p>
+        <p className='hello'><span>🧔🏻</span> olá_</p>
+        {/* <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p> */}
         <h1>
           me chamo Breno, sou designer<br/>
           & desenvolvedor frontend_
