@@ -99,6 +99,34 @@ export const GlobalStyles = createGlobalStyle`
 
 
 
+  /* text selection color must be red */
+  ::-moz-selection {
+    /* background: #FFEEDD; */
+    background: rgba(98, 241, 243,.7);
+    color: #0B253E;
+    text-shadow: none;
+  }
+
+  ::selection {
+    /* background: #FFEEDD; */
+    background: rgba(98, 241, 243,.7);
+    color: #0B253E;
+    text-shadow: none;
+  }
+
+  .link-link {
+    cursor: url('/images/link.png'), pointer;
+    color: inherit;
+    font-weight: inherit;
+    color: lime;
+  }
+  .link-killua {
+    cursor: url('/images/killua.png'), pointer;
+    color: inherit;
+    font-weight: inherit;
+    color: pink;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -114,7 +142,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background: #0B253E;
-    color: #FFEEDD;
+    color: rgba(255, 238, 221,1);
     font-size: 16px;
   }
 
