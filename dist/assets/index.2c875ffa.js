@@ -805,7 +805,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   @media (max-width: 576px) {
     height: auto;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 `,Bg=wr.div`
   position: relative;
@@ -1169,7 +1169,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   right: 70px;
   z-index: 10;
   @media (max-width: 578px) {
-    /* top: 50px; */
+    top: 50px;
     right: 20px;
   }
 `;function jy(){const e=localStorage.getItem("locale"),[t,n]=at.exports.useState(e||"en"),r=i=>{n(i),localStorage.setItem("locale",i)};return At(py,{children:[ie($y,{}),ie(My,{children:At("div",{className:"checkbox-wrapper-35",children:[ie("input",{value:"private",name:"switch",id:"switch",type:"checkbox",className:"switch",checked:t==="en",onClick:()=>r(t==="en"?"pt":"en")}),ie("label",{htmlFor:"switch",children:At("span",{className:"switch-x-toggletext",children:[ie("span",{className:"switch-x-unchecked",children:"pt-BR"}),ie("span",{className:"switch-x-checked",children:"en-US"})]})})]})}),ie(hy,{language:t})]})}ol.createRoot(document.getElementById("root")).render(ie(dn.StrictMode,{children:ie(jy,{})}));
