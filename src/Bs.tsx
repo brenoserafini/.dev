@@ -9,7 +9,7 @@ const LocalesContainer = styled.div`
   right: 70px;
   z-index: 10;
   @media (max-width: 578px) {
-    /* top: 50px; */
+    top: 50px;
     right: 20px;
   }
 `;
