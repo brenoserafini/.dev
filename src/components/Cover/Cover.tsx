@@ -2,7 +2,20 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Content, Social, Tag, TagContainer } from './styles';
 
-export function Cover() {
+
+import messagesPt from '../../locales/messages_pt.json';
+import messagesEn from '../../locales/messages_en.json';
+
+const messages = {
+  'pt': messagesPt,
+  'en': messagesEn
+};
+
+interface CoverProps {
+  language: 'pt' | 'en';
+}
+
+export function Cover({ language }: CoverProps ) {
 
   const tags = [
     'Javascript',
@@ -16,19 +29,39 @@ export function Cover() {
     'AWS EC2 & Amplify',
     'CapRover',
   ];
+
+  interface Messages {
+    pt: {
+      hello: string;
+      about_me: string;
+      current_job: string;
+      experience: string;
+      curious: string;
+      technologies: string;
+    };
+    en: {
+      hello: string;
+      about_me: string;
+      current_job: string;
+      experience: string;
+      curious: string;
+      technologies: string;
+    };
+  }
+
+  const t = (key: keyof Messages['pt'] | keyof Messages['en']) => messages[language][key];
+
+
   return (
     <Container>
       <Content>
-        <p className='hello'><span>🧔🏻</span> olá_</p>
+        <p className='hello'><span>🧔🏻</span> {t('hello')}</p>
         {/* <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p> */}
-        <h1>
-          me chamo Breno, sou designer<br/>
-          & desenvolvedor frontend_
-        </h1>
-        <p className='about'>formado em design pela Ufes, atualmente sou responsável pelo desenvolvimento de um produto digital apaixonante na <a href='https://www.persora.com.br' target="_blank" rel="noreferrer">Persora</a>_</p>
-        <p className='about'>desde 2010 construo coisas para a internet e mais recentemente tenho buscado experiências para me tornar um dev full stack_</p>
-        <p className='about'>naturalmente curioso, estou sempre experimentando novas tecnologias e ferramentas para impulsionar os projetos em que atuo_</p>
-        <p className='about '>aqui estão algumas com as quais tenho trabalhado nos últimos meses_</p>
+        <h1 dangerouslySetInnerHTML={{__html: t('about_me')}} />
+        <p className='about' dangerouslySetInnerHTML={{ __html: t('current_job') }} />
+        <p className='about'>{t('experience')}</p>
+        <p className='about'>{t('curious')}</p>
+        <p className='about'>{t('technologies')}</p>
         <TagContainer>
           {tags.map(tag => (
             <Tag key={tag}>{tag}</Tag>
