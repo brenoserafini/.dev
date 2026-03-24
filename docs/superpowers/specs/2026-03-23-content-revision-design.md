@@ -105,12 +105,13 @@ const tags = [
 **Adicionados:** TypeScript, PHP, MySQL, Docker, GitHub Actions / CI-CD
 **Removidos:** nenhum
 **Reordenados:** todos, por proximidade de área
+**Correções de casing:** `'Javascript'` → `'JavaScript'` · `'Wordpress'` → `'WordPress'` (brand names corretos)
 
 ---
 
 ### 7. CTA — novo campo `cta`
 
-Novo `<p>` adicionado em `Cover.tsx` entre as tags e o bloco de redes sociais. Linka para LinkedIn (`target="_blank"`).
+Novo elemento adicionado em `Cover.tsx` entre `<TagContainer>` e `<Social>`. Linka para LinkedIn (`target="_blank"`).
 
 | | Valor |
 |---|---|
@@ -119,13 +120,59 @@ Novo `<p>` adicionado em `Cover.tsx` entre as tags e o bloco de redes sociais. L
 
 Os botões sociais existentes (LinkedIn, GitHub, Instagram) são mantidos abaixo do CTA.
 
+**JSX exato a adicionar:**
+```tsx
+<p className='about'>
+  <a
+    href='https://www.linkedin.com/in/brenoserafini/'
+    target='_blank'
+    rel='noreferrer'>
+    {t('cta')}
+  </a>
+</p>
+```
+
+Usa `className='about'` (mesmo das demais frases) para manter tipografia consistente sem nenhuma mudança de CSS. O `<a>` envolve todo o texto do CTA, incluindo a seta `→` que faz parte da string do locale.
+
+**Atualização obrigatória da interface `Messages` em `Cover.tsx`** (linhas 33–50):
+```typescript
+interface Messages {
+  pt: {
+    hello: string;
+    about_me: string;
+    current_job: string;
+    experience: string;
+    curious: string;
+    technologies: string;
+    cta: string; // <-- adicionar
+  };
+  en: {
+    hello: string;
+    about_me: string;
+    current_job: string;
+    experience: string;
+    curious: string;
+    technologies: string;
+    cta: string; // <-- adicionar
+  };
+}
+```
+
+Sem essa adição, `t('cta')` causará erro de compilação TypeScript.
+
 ---
+
+## Implementation notes
+
+- `current_job` em ambos os locales deve continuar como **raw HTML string** com a tag `<a>` embutida no valor JSON (ex: `"texto <a href='...'>Persora</a> texto_"`), pois o componente renderiza via `dangerouslySetInnerHTML`. Não mover o link para JSX.
+- O campo `hello` (`"olá_"` / `"hello_"`) **não é alterado**.
+- A headline EN (`"I'm Breno —<br/>a Product Engineer_"`) é uma reescrita estrutural intencional — não apenas substituição de palavras. O PT mantém "me chamo Breno, sou..."; o EN adota estilo mais direto. Ambos estão corretos.
 
 ## Files to edit
 
-1. `src/locales/messages_pt.json` — atualizar todos os campos + adicionar `cta`
-2. `src/locales/messages_en.json` — atualizar todos os campos + adicionar `cta`
-3. `src/components/Cover/Cover.tsx` — atualizar array `tags`, adicionar interface `cta`, renderizar CTA acima do `<Social>`
+1. `src/locales/messages_pt.json` — atualizar `about_me`, `current_job`, `experience`, `curious`, `technologies` + adicionar `cta`
+2. `src/locales/messages_en.json` — atualizar `about_me`, `current_job`, `experience`, `curious`, `technologies` + adicionar `cta`
+3. `src/components/Cover/Cover.tsx` — atualizar array `tags` (reordenar + adicionar + corrigir casing), atualizar interface `Messages` (adicionar `cta`), renderizar CTA `<p>` acima do `<Social>`
 
 ---
 
