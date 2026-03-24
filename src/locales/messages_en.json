@@ -1,8 +1,9 @@
 {
   "hello": "hello_",
-  "about_me": "my name is Breno, I'm a designer<br/> & frontend developer_",
-  "current_job": "graduated in design from Ufes, I'm currently responsible for developing an exciting digital product at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>_",
-  "experience": "since 2010 I've been building things for the web and more recently I've been seeking experiences to become a full stack dev_",
-  "curious": "naturally curious, I'm always experimenting with new technologies and tools to drive the projects I work on_",
-  "technologies": "here are some I've been working with in recent months_"
+  "about_me": "I'm Breno —<br/>a Product Engineer_",
+  "current_job": "developer focused on frontend and product, with 10+ years building in startup environments. Currently building a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, actively involved in the full product cycle — from definition to production._",
+  "experience": "frontend with React is my main focus, with strong collaboration on product decisions, backend integration and cloud infrastructure (AWS). I coordinate development cycles with Shape Up and manage continuous deployments with GitHub Actions._",
+  "curious": "Design degree from UFES. I use that background to anticipate implementation problems and reduce friction between UX and engineering — shipping faster and more consistently._",
+  "technologies": "stack I've been working with_",
+  "cta": "open to opportunities in product-driven teams →"
 }
