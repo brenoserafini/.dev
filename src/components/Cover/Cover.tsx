@@ -18,15 +18,20 @@ interface CoverProps {
 export function Cover({ language }: CoverProps ) {
 
   const tags = [
-    'Javascript',
+    'TypeScript',
+    'JavaScript',
     'React',
     'Styled Components',
     'Bootstrap',
-    'Wordpress',
-    'MongoDB',
     'Node.js + Express',
-    'GitFlow & GitHub',
+    'PHP',
+    'WordPress',
+    'MongoDB',
+    'MySQL',
     'AWS EC2 & Amplify',
+    'Docker',
+    'GitHub Actions / CI-CD',
+    'GitFlow & GitHub',
     'CapRover',
   ];
 
@@ -38,6 +43,7 @@ export function Cover({ language }: CoverProps ) {
       experience: string;
       curious: string;
       technologies: string;
+      cta: string;
     };
     en: {
       hello: string;
@@ -46,6 +52,7 @@ export function Cover({ language }: CoverProps ) {
       experience: string;
       curious: string;
       technologies: string;
+      cta: string;
     };
   }
 
@@ -67,6 +74,14 @@ export function Cover({ language }: CoverProps ) {
             <Tag key={tag}>{tag}</Tag>
           ))}
         </TagContainer>
+        <p className='about'>
+          <a
+            href='https://www.linkedin.com/in/brenoserafini/'
+            target='_blank'
+            rel='noreferrer'>
+            {t('cta')}
+          </a>
+        </p>
         <Social>
           <a
             className="social-link"
