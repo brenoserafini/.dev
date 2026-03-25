@@ -62,7 +62,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #080d14;
+    /* background-color: #031b27; */
+    background-color: #021722;
     background-image:
       radial-gradient(ellipse 65% 45% at 0% 0%, rgba(98, 241, 243, 0.055) 0%, transparent 55%),
       repeating-linear-gradient(
