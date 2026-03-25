@@ -1,11 +1,11 @@
 {
   "hello": "/init brenoserafini",
   "about_me": "me chamo Breno, sou<br/>Product Engineer_",
-  "current_job": "desenvolvedor com forte atuação em frontend e produto, com mais de 10 anos de experiência como designer e desenvolvedor de soluções digitais. Sou naturalmente curioso por entender como as coisas funcionam e isso, ao longo da minha trajetória, se traduziu na capacidade de transformar problemas em soluções reais, conectando ideia e execução._",
-  "experience": "minha base vem do design, mas ao longo da carreira evoluí para um papel mais amplo, atuando diretamente na construção e evolução de produtos digitais, conectando decisões de negócio, experiência do usuário e implementação técnica._",
-  "current_role": "atualmente trabalho no desenvolvimento de um SaaS no modelo PLG, na <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, participando de todo o ciclo de produto, desde a definição de funcionalidades até a entrega em produção. Minha principal atuação está no frontend com React, com colaboração próxima em design, backend e infraestrutura._",
-  "ai_workflow": "mais recentemente, passei a integrar ferramentas e modelos de IA ao meu fluxo de trabalho, utilizando abordagens mais estruturadas e iterativas (incluindo uso agêntico) para ampliar minha capacidade de execução, qualidade técnica e velocidade de experimentação no desenvolvimento de produto._",
-  "curious": "minha formação em Design me permite abordar problemas de forma estruturada, com método e com a devida atenção aos detalhes, antecipar desafios de implementação e contribuir para entregas mais consistentes._",
+  "current_job": "desenvolvedor com forte atuação em frontend e produto, com mais de 10 anos de experiência como designer e desenvolvedor de soluções digitais. Sou naturalmente curioso por entender como as coisas funcionam e isso, ao longo da minha trajetória, se traduziu na capacidade de transformar problemas em soluções reais, conectando ideia e execução_",
+  "experience": "minha base vem do design, mas ao longo da carreira evoluí para um papel mais amplo, atuando diretamente na construção e evolução de produtos digitais, conectando decisões de negócio, experiência do usuário e implementação técnica_",
+  "current_role": "atualmente trabalho no desenvolvimento de um SaaS no modelo PLG, na <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, participando de todo o ciclo de produto, desde a definição de funcionalidades até a entrega em produção. Minha principal atuação está no frontend com React, com colaboração próxima em design, backend e infraestrutura_",
+  "ai_workflow": "mais recentemente, passei a integrar ferramentas e modelos de IA ao meu fluxo de trabalho, utilizando abordagens mais estruturadas e iterativas (incluindo uso agêntico) para ampliar minha capacidade de execução, qualidade técnica e velocidade de experimentação no desenvolvimento de produto_",
+  "curious": "minha formação em Design me permite abordar problemas de forma estruturada, com método e com a devida atenção aos detalhes, antecipar desafios de implementação e contribuir para entregas mais consistentes_",
   "technologies": "stack e ferramentas_",
   "cta": "vamos juntos por um projeto no mundo →"
 }
