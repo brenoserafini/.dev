@@ -1,8 +1,11 @@
 {
-  "hello": "hello_",
-  "about_me": "my name is Breno, I'm a designer<br/> & frontend developer_",
-  "current_job": "graduated in design from Ufes, I'm currently responsible for developing an exciting digital product at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>_",
-  "experience": "since 2010 I've been building things for the web and more recently I've been seeking experiences to become a full stack dev_",
-  "curious": "naturally curious, I'm always experimenting with new technologies and tools to drive the projects I work on_",
-  "technologies": "here are some I've been working with in recent months_"
+  "hello": "/init brenoserafini",
+  "about_me": "I'm Breno —<br/>a Product Engineer_",
+  "current_job": "developer with a strong focus on frontend and product, with over 10 years of experience as a designer and developer of digital solutions. I'm naturally curious about understanding how things work and, throughout my career, this has translated into the ability to turn problems into real solutions, connecting idea and execution._",
+  "experience": "my background is in design, but over the years I evolved into a broader role, working directly on building and evolving digital products, connecting business decisions, user experience and technical implementation._",
+  "current_role": "I currently work on the development of a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, participating in the full product cycle — from feature definition to production delivery. My main focus is frontend with React, with close collaboration on design, backend and infrastructure._",
+  "ai_workflow": "more recently, I started integrating AI tools and models into my workflow, using more structured and iterative approaches (including agentic use) to expand my execution capacity, technical quality and experimentation speed in product development._",
+  "curious": "my Design degree allows me to approach problems in a structured way, with method and attention to detail, anticipate implementation challenges and contribute to more consistent deliveries._",
+  "technologies": "stack & tools_",
+  "cta": "let's ship something together →"
 }

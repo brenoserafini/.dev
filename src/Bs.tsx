@@ -39,8 +39,8 @@ export function Bs() {
           />
           <label htmlFor="switch">
             <span className="switch-x-toggletext">
-              <span className="switch-x-unchecked">pt-BR</span>
-              <span className="switch-x-checked">en-US</span>
+              <span className="switch-x-unchecked">pt.BR</span>
+              <span className="switch-x-checked">en.US</span>
             </span>
           </label>
         </div>
