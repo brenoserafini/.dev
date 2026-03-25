@@ -39,24 +39,21 @@ export const Content = styled.div`
 
   .hello {
     font-family: FiraCode, monospace;
-    font-size: 0.8125rem;
+    font-size: 0.7125rem;
     color: rgba(98, 241, 243, 0.45);
     margin-bottom: 1.75rem;
     letter-spacing: 0.06em;
 
     &::before {
-      content: '> ';
-      color: rgba(98, 241, 243, 0.22);
-    }
-
-    span {
-      font-size: 0.875rem;
-      margin-right: 0.2rem;
+      content: '❯_';
+      color: rgba(98, 241, 243, 0.32);
+      margin-right: 0.5rem;
     }
   }
 
   h1 {
-    font-size: clamp(2rem, 4.5vw, 3.75rem);
+    /* clamp (min, ideal, max) */
+    font-size: clamp(2rem, 3vw, 3.75rem);
     font-weight: 700;
     line-height: 1.1;
     color: rgba(240, 248, 255, 0.96);
@@ -68,7 +65,7 @@ export const Content = styled.div`
     position: relative;
     max-width: 76ch;
     font-family: SourceSansPro, sans-serif;
-    font-size: 0.9375rem;
+    font-size: 0.9875rem;
     font-weight: 300;
     line-height: 1.85;
     margin-bottom: 0.6rem;
@@ -83,7 +80,7 @@ export const Content = styled.div`
       font-family: FiraCode, monospace;
       font-size: 0.7rem;
       font-weight: 400;
-      color: rgba(98, 241, 243, 0.16);
+      color: rgba(98, 241, 243, 0.26);
       line-height: 1;
     }
 
@@ -103,7 +100,7 @@ export const Content = styled.div`
     margin-top: 2rem;
     margin-bottom: 0.25rem;
     font-family: FiraCode, monospace;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-weight: 400;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -156,8 +153,9 @@ export const TagContainer = styled.div`
 
 export const Tag = styled.div`
   display: inline-block;
-  margin: 0.3rem 0.3rem 0 0;
-  padding: 0.2rem 0.55rem;
+  margin: 0.4rem 0.8rem 0 0;
+  padding: 0.4rem 0.55rem;
+  margin-top: 0.8rem;
   font-family: FiraCode, monospace;
   font-size: 0.6875rem;
   font-weight: 400;
@@ -165,7 +163,7 @@ export const Tag = styled.div`
   color: rgba(98, 241, 243, 0.58);
   background: rgba(98, 241, 243, 0.04);
   border: 1px solid rgba(98, 241, 243, 0.1);
-  border-radius: 2px;
+  border-radius: 5px;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
   cursor: default;
 
@@ -183,7 +181,7 @@ export const Tag = styled.div`
 `;
 
 export const Social = styled.div`
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid rgba(98, 241, 243, 0.07);
 

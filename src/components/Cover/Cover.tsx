@@ -1,4 +1,5 @@
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Content, Social, Tag, TagContainer } from './styles';
 
@@ -30,7 +31,7 @@ export function Cover({ language }: CoverProps ) {
     'WordPress',
     // Data
     'MongoDB',
-    'MySQL',
+    // 'MySQL',
     // Infra
     'AWS EC2 & Amplify',
     'Docker',
@@ -41,10 +42,11 @@ export function Cover({ language }: CoverProps ) {
     'Figma',
     // AI
     'Claude Code',
+    'Github Copilot',
     'IA',
     // Método
     'Notion',
-    'Shape Up',
+    'Basecamp (Shape Up)',
   ];
 
   interface Messages {
@@ -78,7 +80,7 @@ export function Cover({ language }: CoverProps ) {
   return (
     <Container>
       <Content>
-        <p className='hello'><span>🧔🏻</span> {t('hello')}</p>
+        <p className='hello'>{t('hello')}</p>
         {/* <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p> */}
         <h1 dangerouslySetInnerHTML={{__html: t('about_me')}} />
         <p className='about'>{t('current_job')}</p>
@@ -119,11 +121,9 @@ export function Cover({ language }: CoverProps ) {
           </a>
           <a
             className="social-link"
-            href='https://instagram.com/brenoserafini_'
-            target={'_blank'}
-            rel="noreferrer"
+            href='mailto:bsb.serafini@gmail.com'
             style={{marginRight: 20}} >
-            <span>instagram_ <FontAwesomeIcon icon={faInstagram} /></span>
+            <span>email_ <FontAwesomeIcon icon={faPaperPlane} /></span>
           </a>
         </Social>
 
