@@ -49,6 +49,28 @@ export const Content = styled.div`
       color: rgba(98, 241, 243, 0.32);
       margin-right: 0.5rem;
     }
+
+    .typing-text {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0;
+      vertical-align: bottom;
+      animation: typing 1s steps(19, end) 0.05s forwards;
+    }
+
+    .cursor-block {
+      display: inline-block;
+      width: 0.45em;
+      height: 0.85em;
+      background: rgba(98, 241, 243, 0.5);
+      vertical-align: text-bottom;
+      margin-left: 3px;
+      top: 3px;
+      position: absolute;
+      opacity: 0;
+      animation: blink-cursor 0.99s step-end 1.1s infinite;
+    }
   }
 
   h1 {

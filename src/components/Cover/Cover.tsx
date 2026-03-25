@@ -80,7 +80,10 @@ export function Cover({ language }: CoverProps ) {
   return (
     <Container>
       <Content>
-        <p className='hello'>{t('hello')}</p>
+        <p className='hello'>
+          <span className='typing-text'>{t('hello')}</span>
+          <span className='cursor-block' />
+        </p>
         {/* <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p> */}
         <h1 dangerouslySetInnerHTML={{__html: t('about_me')}} />
         <p className='about'>{t('current_job')}</p>

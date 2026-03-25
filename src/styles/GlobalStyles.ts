@@ -13,6 +13,16 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
+  @keyframes typing {
+    from { width: 0; }
+    to   { width: calc(19ch + 1.2em); }
+  }
+
+  @keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+
   ::-moz-selection {
     background: rgba(98, 241, 243, .7);
     color: #080d14;
