@@ -1,11 +1,11 @@
 {
   "hello": "hello_",
   "about_me": "I'm Breno —<br/>a Product Engineer_",
-  "current_job": "developer focused on frontend and product, with 10+ years of experience in design and digital development. Currently building a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, actively involved in the full product cycle — from definition to production._",
-  "experience": "frontend with React is my main focus, with close collaboration on design, backend and infrastructure decisions. I've integrated AI tools and models into my workflow — using structured and iterative approaches, including agentic use — to expand execution capacity, technical quality and experimentation speed._",
-  "curious": "Design degree from UFES. That background lets me approach problems with method, anticipate implementation challenges and reduce friction between UX and engineering._",
-  "what_i_do_label": "what I do_",
-  "what_i_do": "frontend specialist with a generalist approach, acting as a connection point between design, product and technology. I implement interfaces and integrate APIs, collaborate with backend on API contracts and data modeling, bridge design and engineering, and coordinate development cycles with Shape Up. I participate in strategic product discussions and bring a technical perspective to business decisions._",
+  "current_job": "developer with a strong focus on frontend and product, with over 10 years of experience as a designer and developer of digital solutions. I'm naturally curious about understanding how things work and, throughout my career, this has translated into the ability to turn problems into real solutions, connecting idea and execution._",
+  "experience": "my background is in design, but over the years I evolved into a broader role, working directly on building and evolving digital products, connecting business decisions, user experience and technical implementation._",
+  "current_role": "I currently work on the development of a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, participating in the full product cycle — from feature definition to production delivery. My main focus is frontend with React, with close collaboration on design, backend and infrastructure._",
+  "ai_workflow": "more recently, I started integrating AI tools and models into my workflow, using more structured and iterative approaches (including agentic use) to expand my execution capacity, technical quality and experimentation speed in product development._",
+  "curious": "my Design degree allows me to approach problems in a structured way, with method and attention to detail, anticipate implementation challenges and contribute to more consistent deliveries._",
   "technologies": "stack & tools_",
   "cta": "open to opportunities in product-driven teams →"
 }

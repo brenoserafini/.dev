@@ -118,9 +118,9 @@ Ordem dos filhos no JSX:
 2. `h1`
 3. `p.about` (current_job)
 4. `p.about` (experience)
-5. `p.about` (curious)
-6. `p.section-label` (what_i_do_label)
-7. `p.about` (what_i_do)
+5. `p.about` (current_role)
+6. `p.about` (ai_workflow)
+7. `p.about` (curious)
 8. `p.section-label` (technologies)
 9. `TagContainer`
 10. `p.cta-line`

@@ -53,9 +53,9 @@ export function Cover({ language }: CoverProps ) {
       about_me: string;
       current_job: string;
       experience: string;
+      current_role: string;
+      ai_workflow: string;
       curious: string;
-      what_i_do_label: string;
-      what_i_do: string;
       technologies: string;
       cta: string;
     };
@@ -64,9 +64,9 @@ export function Cover({ language }: CoverProps ) {
       about_me: string;
       current_job: string;
       experience: string;
+      current_role: string;
+      ai_workflow: string;
       curious: string;
-      what_i_do_label: string;
-      what_i_do: string;
       technologies: string;
       cta: string;
     };
@@ -81,11 +81,11 @@ export function Cover({ language }: CoverProps ) {
         <p className='hello'><span>🧔🏻</span> {t('hello')}</p>
         {/* <p className='hello'><img src='/images/brenoByTitsay-shortpixel.png'alt='by Titsay' /> olá_</p> */}
         <h1 dangerouslySetInnerHTML={{__html: t('about_me')}} />
-        <p className='about' dangerouslySetInnerHTML={{ __html: t('current_job') }} />
+        <p className='about'>{t('current_job')}</p>
         <p className='about'>{t('experience')}</p>
+        <p className='about' dangerouslySetInnerHTML={{ __html: t('current_role') }} />
+        <p className='about'>{t('ai_workflow')}</p>
         <p className='about'>{t('curious')}</p>
-        <p className='section-label'>{t('what_i_do_label')}</p>
-        <p className='about'>{t('what_i_do')}</p>
         <p className='section-label'>{t('technologies')}</p>
         <TagContainer>
           {tags.map(tag => (
