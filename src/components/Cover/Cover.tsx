@@ -101,9 +101,8 @@ export function Cover({ language }: CoverProps ) {
           <a
             href='https://www.linkedin.com/in/brenoserafini/'
             target='_blank'
-            rel='noreferrer'>
-            {t('cta')}
-          </a>
+            rel='noreferrer'
+            dangerouslySetInnerHTML={{ __html: t('cta') }}/>
         </p>
         <Social>
           <a

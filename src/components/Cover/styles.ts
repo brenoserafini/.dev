@@ -137,6 +137,9 @@ export const Content = styled.div`
     font-family: FiraCode, monospace;
     font-size: 0.8125rem;
     color: rgba(98, 241, 243, 0.5);
+    span {
+      white-space: nowrap;
+    }
 
     &::before {
       content: '$ ';
@@ -172,6 +175,7 @@ export const TagContainer = styled.div`
   max-width: 680px;
   margin: 0.5rem 0 1.75rem;
 `;
+
 
 export const Tag = styled.div`
   display: inline-block;
