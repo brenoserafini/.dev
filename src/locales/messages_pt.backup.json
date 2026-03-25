@@ -1,0 +1,9 @@
+{
+  "hello": "olá_",
+  "about_me": "me chamo Breno, sou<br/>Product Engineer_",
+  "current_job": "desenvolvedor com foco em frontend e produto, atuando há mais de 10 anos em ambientes de startup. Atualmente construindo um SaaS no modelo PLG na <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, onde participo de todo o ciclo do produto — da definição à entrega em produção._",
+  "experience": "frontend com React é minha principal atuação, com forte colaboração em decisões de produto, integração com backend e infraestrutura cloud (AWS). Coordeno ciclos de desenvolvimento com Shape Up e cuido de deploy contínuo com GitHub Actions._",
+  "curious": "formado em Design pela UFES, uso esse background para antecipar problemas de implementação e reduzir atrito entre UX e engenharia — entregando com mais velocidade e consistência._",
+  "technologies": "stack com que tenho trabalhado_",
+  "cta": "aberto a oportunidades em times orientados a produto →"
+}

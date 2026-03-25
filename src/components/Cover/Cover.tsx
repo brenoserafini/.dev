@@ -18,21 +18,33 @@ interface CoverProps {
 export function Cover({ language }: CoverProps ) {
 
   const tags = [
-    'TypeScript',
+    // Frontend
     'JavaScript',
+    'TypeScript',
     'React',
     'Styled Components',
     'Bootstrap',
+    // Backend
     'Node.js + Express',
     'PHP',
     'WordPress',
+    // Data
     'MongoDB',
     'MySQL',
+    // Infra
     'AWS EC2 & Amplify',
     'Docker',
     'GitHub Actions / CI-CD',
     'GitFlow & GitHub',
     'CapRover',
+    // Design
+    'Figma',
+    // AI
+    'Claude Code',
+    'IA',
+    // Método
+    'Notion',
+    'Shape Up',
   ];
 
   interface Messages {
@@ -42,6 +54,8 @@ export function Cover({ language }: CoverProps ) {
       current_job: string;
       experience: string;
       curious: string;
+      what_i_do_label: string;
+      what_i_do: string;
       technologies: string;
       cta: string;
     };
@@ -51,6 +65,8 @@ export function Cover({ language }: CoverProps ) {
       current_job: string;
       experience: string;
       curious: string;
+      what_i_do_label: string;
+      what_i_do: string;
       technologies: string;
       cta: string;
     };
@@ -68,13 +84,15 @@ export function Cover({ language }: CoverProps ) {
         <p className='about' dangerouslySetInnerHTML={{ __html: t('current_job') }} />
         <p className='about'>{t('experience')}</p>
         <p className='about'>{t('curious')}</p>
-        <p className='about'>{t('technologies')}</p>
+        <p className='section-label'>{t('what_i_do_label')}</p>
+        <p className='about'>{t('what_i_do')}</p>
+        <p className='section-label'>{t('technologies')}</p>
         <TagContainer>
           {tags.map(tag => (
             <Tag key={tag}>{tag}</Tag>
           ))}
         </TagContainer>
-        <p className='about'>
+        <p className='cta-line'>
           <a
             href='https://www.linkedin.com/in/brenoserafini/'
             target='_blank'

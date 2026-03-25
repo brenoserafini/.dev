@@ -1,9 +1,11 @@
 {
   "hello": "hello_",
   "about_me": "I'm Breno —<br/>a Product Engineer_",
-  "current_job": "developer focused on frontend and product, with 10+ years building in startup environments. Currently building a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, actively involved in the full product cycle — from definition to production._",
-  "experience": "frontend with React is my main focus, with strong collaboration on product decisions, backend integration and cloud infrastructure (AWS). I coordinate development cycles with Shape Up and manage continuous deployments with GitHub Actions._",
-  "curious": "Design degree from UFES. I use that background to anticipate implementation problems and reduce friction between UX and engineering — shipping faster and more consistently._",
-  "technologies": "stack I've been working with_",
+  "current_job": "developer focused on frontend and product, with 10+ years of experience in design and digital development. Currently building a PLG SaaS at <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, actively involved in the full product cycle — from definition to production._",
+  "experience": "frontend with React is my main focus, with close collaboration on design, backend and infrastructure decisions. I've integrated AI tools and models into my workflow — using structured and iterative approaches, including agentic use — to expand execution capacity, technical quality and experimentation speed._",
+  "curious": "Design degree from UFES. That background lets me approach problems with method, anticipate implementation challenges and reduce friction between UX and engineering._",
+  "what_i_do_label": "what I do_",
+  "what_i_do": "frontend specialist with a generalist approach, acting as a connection point between design, product and technology. I implement interfaces and integrate APIs, collaborate with backend on API contracts and data modeling, bridge design and engineering, and coordinate development cycles with Shape Up. I participate in strategic product discussions and bring a technical perspective to business decisions._",
+  "technologies": "stack & tools_",
   "cta": "open to opportunities in product-driven teams →"
 }

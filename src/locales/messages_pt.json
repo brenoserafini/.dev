@@ -1,9 +1,11 @@
 {
   "hello": "olá_",
   "about_me": "me chamo Breno, sou<br/>Product Engineer_",
-  "current_job": "desenvolvedor com foco em frontend e produto, atuando há mais de 10 anos em ambientes de startup. Atualmente construindo um SaaS no modelo PLG na <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, onde participo de todo o ciclo do produto — da definição à entrega em produção._",
-  "experience": "frontend com React é minha principal atuação, com forte colaboração em decisões de produto, integração com backend e infraestrutura cloud (AWS). Coordeno ciclos de desenvolvimento com Shape Up e cuido de deploy contínuo com GitHub Actions._",
-  "curious": "formado em Design pela UFES, uso esse background para antecipar problemas de implementação e reduzir atrito entre UX e engenharia — entregando com mais velocidade e consistência._",
-  "technologies": "stack com que tenho trabalhado_",
+  "current_job": "desenvolvedor com foco em frontend e produto, com mais de 10 anos de experiência em design e desenvolvimento de soluções digitais. Atualmente construindo um SaaS no modelo PLG na <a href='https://www.persora.com.br' target='_blank' rel='noreferrer'>Persora</a>, participando de todo o ciclo do produto — da definição à entrega em produção._",
+  "experience": "frontend com React é minha principal atuação, com colaboração próxima em design, backend e infraestrutura. Integrei ferramentas e modelos de IA ao fluxo de trabalho — com abordagens estruturadas e iterativas, incluindo uso agêntico — para ampliar execução, qualidade técnica e velocidade de experimentação._",
+  "curious": "formado em Design pela UFES. Esse background me permite abordar problemas com método, antecipar desafios de implementação e reduzir atrito entre UX e engenharia._",
+  "what_i_do_label": "o que faço_",
+  "what_i_do": "especialista em frontend com atuação generalista como ponto de conexão entre design, produto e tecnologia. Implemento interfaces e integro APIs, colaboro com backend na definição de contratos e modelagem de dados, atuo como ponte entre design e engenharia e coordeno ciclos de desenvolvimento com Shape Up. Participo de discussões estratégicas de produto e trago a perspectiva técnica para as decisões de negócio._",
+  "technologies": "stack e ferramentas_",
   "cta": "aberto a oportunidades em times orientados a produto →"
 }
